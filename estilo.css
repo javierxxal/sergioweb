@@ -6,7 +6,23 @@ body{
 .seccion{
     background-color: #8D89A9;
     margin: 20px;
+    overflow: hidden;
 }
+
+.seccion1{
+    background-color: #8D89A9;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.seccion2{
+    content: "";
+    clear: both;
+    display: table;
+    margin: 20px;
+    width: 100%;
+}
+
 
 .end{
     background-color: #706C93;
@@ -19,9 +35,16 @@ font-family:Helvetica, sans-serif;
 font-size:14px;
 }
 
+p.video{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+    font-size:14px;
+    float: left;
+    width: 50%;
+}
+
 h2{
 color:rgb(255, 255, 255);
-text-align: center;
 font-family:Helvetica, sans-serif;
 }
 
@@ -31,16 +54,21 @@ font-family:Helvetica, sans-serif;
 
 }
 
+h3.video{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+    float: left;
+    width: 50%;
+    text-align: center;
+    text-decoration: underline;
+}
+
 ul.cab{
     background-color: #706C93;
     margin: 20px;
     padding: 0px;
     overflow: hidden;
     list-style-type: none;
-
-}
-
-li.icono{
 
 }
 
@@ -54,18 +82,18 @@ li.elem{
 
 }
 
-a:link{
+a.barra:link{
     color: white;
     text-decoration: none;
 }
 
-a:visited {
+a.barra:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:hover{
+a.barra:hover{
     color:black;
     background-color:#e0dfe8;
     text-decoration: none;
@@ -73,13 +101,19 @@ a:hover{
 
 }
 
-img.izq{
-
+img.cent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-img.der{
-    
+img.video{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 500px;
+    height: 250px;
 }
+
 
 
 
