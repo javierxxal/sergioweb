@@ -129,6 +129,16 @@ pre {
   /* 2 */
 }
 
+@font-face {
+  font-family: 'Adventure';
+  src: url('Adventure.ttf') format('truetype');
+}
+
+.aventura{
+  font-family: 'Adventure',sans-serif;
+  
+}
+
 /*
 Add the correct font size in all browsers.
 */
