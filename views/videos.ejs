@@ -1,50 +1,143 @@
 <!DOCTYPE html>
 <html lnang="es" title="SergioWebVideos">
 <head>
-<link rel="stylesheet" href="estilo.css">
-<link rel="stylesheet" href="/dist/output.css" >
-
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Videos</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-  <ul class="cab">
-    <li class="elem"><a class="barra" href="/">HOME</a></li>
-    <li class="elem"><a class="barra" href="info">INFO</a></li>
-    <li class="elem"><a class="barra" href="audio">AUDIO</a> </li>
-    <li class="elem"><a class="barra" href="videos">VIDEOS</a></li>
-    <li class="elem"><a class="barra" href="otrosProyectos">OTROS PROYECTOS</a></li>
-  </ul>
-  <div class="seccion">
+<body class="bg-gray-800  font-mono  font-normal text-slate-50">
+  <div class="container mx-auto">
+    <!--Principio de Barra de Busqueda-->
 
-    <a href="https://www.youtube.com/channel/UCStXGT6ztobCiBmpauL0SNg/videos">
-      <h2 style="text-align:center;">VIDEOS</h2>
-    </a>
+    <br>
+    <ul class="text-lg bg-gray-500 flex items-center space-x-6 rounded-3xl self-center px-4 py-2">
+        <li class="hover:bg-slate-200 hover:text-black  px-3 py-2 rounded-md"><a class="barra" href="/">HOME</a></li>
+        <li class="hover:bg-slate-200 hover:text-black  px-3 py-2 rounded-md"><a class="barra" href="info">INFO</a></li>
+        <li class="hover:bg-slate-200 hover:text-black  px-3 py-2 rounded-md"><a class="barra" href="audio">AUDIO</a> </li>
+        <li class="hover:bg-slate-200 hover:text-black  px-3 py-2 rounded-md"><a class="barra" href="videos">VIDEOS</a></li>
+        <li class="hover:bg-slate-200 hover:text-black  px-3 py-2 rounded-md"><a class="barra" href="otrosProyectos">OTROS PROYECTOS</a></li>
+    </ul>
+    <br>
+    <!--Fin de Barra de Busqueda-->
 
-    <a href="https://www.youtube.com/watch?v=A-HjvAx5N_A&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21">
-      <img src="imagenes/kojima.jpg" alt="Foto de Sergio" class="video"> 
-    </a>
-    <a href="https://www.youtube.com/watch?v=hj5KrCgd9Sk&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21">
-    <img src="imagenes/kojima2.jpg" alt="Foto de Sergio" class="video"> 
-    </a>
-    <div class="seccion2">
-      <h3 class="video" > Video 1</h3>
-      <h3 class="video"> Video 2</h3>
+
+    <!--Principio de Canal de Youtube Original-->
+
+    <div class="bg-zinc-600 container mx-auto px-4">
+      
+        <a target="_blank" href="https://www.youtube.com/channel/UCStXGT6ztobCiBmpauL0SNg/videos">
+          <h2 class="text-2xl p-5  font-bold text-center hover:text-blue-300 visited:text-purple-300">
+            ¡Mi canal de youtube! 
+            <img src="/img/sergioCanal.jpg" class="inline-block rounded-full" width="88px" height="88px" alt="F1">            
+          </h2>
+        </a>
+      
+      <br>
+
+      <div class="columns-2 ">
+          <a target="_blank" href="https://www.youtube.com/watch?v=z4n-Q9gjhtA&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21">
+            <img src="/img/Video1.jpg" class="mx-auto" width="480px" height="720px" alt="F1"> 
+          </a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=A-HjvAx5N_A&t=2s&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21">
+          <img src="/img/Video2.jpg" class="mx-auto" width="480px" height="720px" alt="F2"> 
+          </a> 
+      </div>
+
+      <div class="columns-2 pt-3">
+        <h3 class="font-bold text-center underline text-lg" > La psicología básica del color en los videojuegos</h3>
+        <h3 class="font-bold text-center underline text-lg">Lovecraft Untold Stories</h3>
+      </div>
+
+      <div class="columns-2 py-2">
+        <p class="text-center"> Este video he participado como editor de audio <br> de los sonidos de disparo</p>
+        <p class="text-center"> Aqui sufri muchisimo</p>
+      </div>
+
+      <br>
+      
+      <div class="columns-2">
+        <a target="_blank" href="https://www.youtube.com/watch?v=8-H2b9iX-Ho&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21">
+          <img src="/img/Video3.jpg" class="mx-auto" width="480px" height="720px" alt="F1"> 
+        </a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=hj5KrCgd9Sk&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21">
+        <img src="/img/Video4.jpg" class="mx-auto" width="480px" height="720px" alt="F2"> 
+        </a>
+      </div>
+
+      <div class="columns-2 pt-3">
+        <h3 class="font-bold text-center underline text-lg">Blasphemous y la estética del metroidvania</h3>
+        <h3 class="font-bold text-center underline text-lg">Sekiro Shadows Die twice</h3>
+      </div>
+
+      <div class="columns-2 py-2">
+        <p class="text-center"> Yo puse ese efecto de luz tope guapo</p>
+        <p class="text-center"> Aqui no hice mucho</p>  
+      </div>
+      
+      <br>
+      <!--Fin de Canal de Youtube Original-->
+
+      <!--Principio de Alcalá de Nocturno-->
+      <a target="_blank" href="https://www.youtube.com/channel/UCMjkC73TQdZDROm39AsqFWw">
+        <h2 class="text-2xl p-5  font-bold text-center hover:text-blue-300 visited:text-purple-300">
+          ¡También participo en Alcala Nocturno!
+          <img src="/img/alcalaNocturno.jpg" class="inline-block rounded-full" width="88px" height="88px" alt="F1">
+        </h2>        
+      </a>
+
+      <br>
+
+      <div class="columns-2 ">
+          <a target="_blank" href="https://www.youtube.com/watch?v=94HfohJTsVE&ab_channel=A.C.Alcal%C3%A1Nocturno">
+            <img src="/img/Video5.jpg" class="mx-auto" width="480px" height="720px" alt="F1"> 
+          </a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=f03HoSjuU0k&ab_channel=A.C.Alcal%C3%A1Nocturno">
+          <img src="/img/Video6.jpg" class="mx-auto" width="480px" height="720px" alt="F2"> 
+          </a> 
+      </div>
+
+      <div class="columns-2 pt-3">
+        <h3 class="font-bold text-center underline text-lg" >¿Qué es Alcalá nocturno?</h3>
+        <h3 class="font-bold text-center underline text-lg">¡Crónica de la cantina del Zulema! Primera sesión</h3>
+      </div>
+
+      <div class="columns-2 py-2">
+        <p class="text-center"> Este video he participado como editor de audio <br> de los sonidos de disparo</p>
+        <p class="text-center"> Aqui sufri muchisimo</p>
+      </div>
+
+      <br>
+      
+      <div class="columns-2">
+        <a target="_blank" href="https://www.youtube.com/watch?v=PtCEzuKJeqI&ab_channel=A.C.Alcal%C3%A1Nocturno">
+          <img src="/img/Video7.jpg" class="mx-auto" width="480px" height="720px" alt="F1"> 
+        </a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=n91q8jsq4DQ&ab_channel=A.C.Alcal%C3%A1Nocturno">
+        <img src="/img/Video8.jpg" class="mx-auto" width="480px" height="720px" alt="F2"> 
+        </a>
+      </div>
+
+      <div class="columns-2 pt-3">
+        <h3 class="font-bold text-center underline text-lg">¡Conoce a la asociación! ¡ Primera ronda!</h3>
+        <h3 class="font-bold text-center underline text-lg">Así vivimos: ¡Rol en vivo de vampiro! 25/03/2022</h3>
+      </div>
+
+      <div class="columns-2 py-2">
+        <p class="text-center"> Yo puse ese efecto de luz tope guapo</p>
+        <p class="text-center"> Aqui no hice mucho</p>  
+      </div>
+      <!--Fin de Alcalá de Nocturno-->
+
+
+      <!--Espacio final de la página -->
+      <br>
+      <br>
+      <br>
     </div>
-    <p class="video"> Este video he participado como editor de audio <br> de los sonidos de disparo</p>
-    <p class="video"> Aqui sufri muchisimo</p>
-    <div class="seccion2">
-      <h3 class="video"> Video 3</h3>
-      <h3 class="video"> Video 4</h3>
-    </div>
-    <p class="video"> Yo puse ese efecto de luz tope guapo</p>
-    <p class="video"> Aqui no hice mucho</p>
-  </div>
-
-  <div class="end">
-    <br>
-    <br>
-    <br>
-  </div>
 
 </body>
 </html>
