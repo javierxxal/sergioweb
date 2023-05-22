@@ -1,0 +1,58 @@
+[
+    {
+        "canal": "¡Hasta el videojuego y más alla!",
+        "link": "https://www.youtube.com/channel/UCStXGT6ztobCiBmpauL0SNg/featured",
+        "logo": "videojuego_y_mas.png",
+        "description": "Canal de Youtube propio dedicado a los videojuegos. Todo está producido por mí, locución, edición, sonido, miniaturas, guiones etc.",
+        "videos": [
+            {
+                "nombre": "Fotógrafos en mundos imaginarios",
+                "imagen": "/fotografos.jpg",
+                "link": "https://www.youtube.com/watch?v=NVktTk2ImuU&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21"
+            },
+            {
+                "nombre": "Un pequeño análisis: Lovecraft Untold Historys",
+                "imagen": "/lovecraft.jpg",
+                "link": "https://www.youtube.com/watch?v=A-HjvAx5N_A&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21"
+            },
+            {
+                "nombre": "God of war y la regla de los tercios",
+                "imagen": "/god_of_war.jpg",
+                "link": "https://www.youtube.com/watch?v=_JTKH-hroLk&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21"
+            },
+            {
+                "nombre": "Un pequeño análisis: A short Hike",
+                "imagen": "/short_hike.jpg",
+                "link": "https://www.youtube.com/watch?v=dom41bFKz0k&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21"
+            }
+        ]
+    },
+    {
+        "canal": "Alcalá Nocturno",
+        "link": "https://www.youtube.com/channel/UCMjkC73TQdZDROm39AsqFWw",
+        "logo": "alcala_nocturno.png",
+        "description": "Encargado del canal de Youtube ,del Tiktok y del canal de Twich de la asociación cultural “Alcalá Nocturno”. Asociación dedicada al rol en mesa y rol en vivo. Realizó la edición, las miniaturas, el sonido, el diseño de los canales etc.",
+        "videos": [
+            {
+                "nombre": "¡Haz magia y tira con ventaja!",
+                "imagen": "/alcala1.jpg",
+                "link": "https://www.youtube.com/shorts/Z-ejvB070GY"
+            },
+            {
+                "nombre": "Conoce a la asociación",
+                "imagen": "/alcala2.jpg",
+                "link": "https://www.youtube.com/watch?v=PtCEzuKJeqI&ab_channel=A.C.Alcal%C3%A1Nocturno"
+            },
+            {
+                "nombre": "¡Resumen rol en vivo! ",
+                "imagen": "/alcala3.jpg",
+                "link": "https://www.youtube.com/watch?v=_JTKH-hroLk&ab_channel=%C2%A1Hastaelvideojuegoym%C3%A1sall%C3%A1%21"
+            },
+            {
+                "nombre": "Twich de la asociación",
+                "imagen": "/alcala4.jpeg",
+                "link": "https://www.twitch.tv/alcalanocturno"
+            }
+        ]
+    }
+]

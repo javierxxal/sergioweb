@@ -1,0 +1,56 @@
+[
+    {
+        "nombre": "Adobe Premier",
+        "imagen": "premier.png"
+    },
+    {
+        "nombre": "Adobe Audition",
+        "imagen": "audition.webp"
+    },
+    {
+        "nombre": "Photoshop",
+        "imagen": "photoshop.webp"
+    },
+    {
+        "nombre": "Davinci Resolve",
+        "imagen": "davinci.png"
+    },
+    {
+        "nombre": "Reaper",
+        "imagen": "reaper.png"
+    },
+    {
+        "nombre": "OBS studio",
+        "imagen": "obs.png"
+    },
+    {
+        "nombre": "Unity Engine",
+        "imagen": "unity.png"
+    },
+    {
+        "nombre": "Paquete Office",
+        "imagen": "office.png"
+    },
+    {
+        "nombre": "Paquete Google",
+        "imagen": "google_workspace.png"
+    },
+    {
+        "nombre": "Click Up",
+        "imagen": "clickup.png"
+    },
+    {
+        "nombre": "Jira",
+        "imagen": "jira.png"
+    },
+    {
+        "nombre": "Confluence",
+        "imagen": "confluence.png"
+    },    {
+        "nombre": "Project libre",
+        "imagen": "project_libre.png"
+    },    {
+        "nombre": "Agganty",
+        "imagen": "agganty.png"
+    }
+]

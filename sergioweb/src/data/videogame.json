@@ -1,0 +1,32 @@
+[
+    {
+        "nombre":"Haz historia",
+        "descripcion":"Haz historia es un videojuego educativo creado para las ayudas de AEVI. Se basa en la idea de enseñar historia a la gente, teniendo que actuar y seguir los pasos de las grandes figuras de la historia. Pero cuidado, porque si cambias algo, tocas lo que no debes o actúas de manera distinta a la original, la historia puede cambiar.En este proyecto participé como productor y game designer.",
+        "imagen":"haz_historia.jpg",
+        "link":"https://drive.google.com/file/d/1av2Gkv4kEYnbSFxFeIsWZxZvyrj6l_Yy/view"
+    },
+    {
+        "nombre":"Café para llevar",
+        "descripcion":"Mi primer videojuego con Unity un pequeño plataformas de acción 2D donde llevas a Barbara, una guerrera en busca de café. Pero no puede conseguirlo hasta llegar a su cafetería favorita. Para llegar, tendrá que superar tres niveles llenos de peligros y enemigos (¿O es la falta de Café lo que hace que lo vea así? Exceptuando el arte y la Música, estuve al cargo de todo.",
+        "imagen":"cafe_para_llevar.png",
+        "link":"https://astralvj.itch.io/caf-para-llevar"
+    },
+    {
+        "nombre":"Bones&Dog",
+        "descripcion":"Videojuego creado en la The final Game Jam. Un plataformas 2D donde encarnas a un esqueleto, o su calavera más bien. Tendrás que moverte por el escenario para conseguir recuperar tus partes del cuerpo y poder seguir avanzando. Además, te encuentras con la inestimable ayuda de tu fiel ayudante perruno. Por que pase lo que pase, y por muy mal que estes, siempre estará a tu lado. Fui productor y Game designer.",
+        "imagen":"bones_dog.jpg",
+        "link":"https://eskeleton-productions.itch.io/bonesdog"
+    },
+    {
+        "nombre":"Tuhktú",
+        "descripcion":"Próximamente. Recibes un ordenador de una chica que se quitó la vida y te piden que descubras que ha pasado. Pero según vas investigando, vas descubriendo que las cosas no son como pareces y que fuerzas oscuras y sectas estaban detrás de ella y de su ambición. ¿Serás capaz de resolver el caso antes de que sea tarde para ti?",
+        "imagen":"tuhktu.png",
+        "link":""
+    },
+    {
+        "nombre":"Vagalume",
+        "descripcion":"Videojuego salido de una incubadora de videojuegos. Plataformas de scroll lateral 2D basada en la mitología gallega. Acompañas a Alcira, una mujer republicana justo al acabar la guerra civil española. En su búsqueda, se encontrará una linterna mágica de las meigas (Vagalume) que la ayudará en su camino a través de las tierras llenas de leyendas y fábulas. Soy parte del departamento de producción.",
+        "imagen":"vagalume.png",
+        "link":"https://vagalumegame.com/home"
+    }
+]
