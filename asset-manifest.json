@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sergioweb/static/css/main.2ffa16f4.css",
+    "main.js": "/sergioweb/static/js/main.736dd9c3.js",
+    "static/media/AdventureNormal.svg": "/sergioweb/static/media/AdventureNormal.b04a69a8f54742fa344d.svg",
+    "static/media/AdventureNormal.eot": "/sergioweb/static/media/AdventureNormal.c88c98516c258de4ab4d.eot",
+    "static/media/AdventureNormal.ttf": "/sergioweb/static/media/AdventureNormal.b51850131bb8e741180b.ttf",
+    "static/media/AdventureNormal.woff": "/sergioweb/static/media/AdventureNormal.6dad359e1c96ad66fa06.woff",
+    "static/media/AdventureNormal.woff2": "/sergioweb/static/media/AdventureNormal.cc6e6e0cedc81f111b15.woff2",
+    "index.html": "/sergioweb/index.html",
+    "main.2ffa16f4.css.map": "/sergioweb/static/css/main.2ffa16f4.css.map",
+    "main.736dd9c3.js.map": "/sergioweb/static/js/main.736dd9c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ffa16f4.css",
+    "static/js/main.736dd9c3.js"
+  ]
+}
