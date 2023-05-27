@@ -19,7 +19,7 @@ export default function Videogame(props) {
       <Col xs={4}>
       <a target="_blank" href={props.link} rel="noreferrer">
       <img
-        style={{ width: 250, height: 350 }}
+        style={{ width: 350, height: 450 }}
         src={url_imagen}
         alt={props.nombre}
         className="video"
