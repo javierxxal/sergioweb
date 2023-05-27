@@ -2,7 +2,7 @@ import React from "react";
 import { Col } from "react-bootstrap";
 
 
-import "../index.css";
+import '../css/estilo.css';
 
 
 
@@ -14,14 +14,14 @@ export default function Herramienta(props) {
 
 
   return (
-    <Col>
+    <Col className="py-2">
       <img
         className="herramienta"
-        style={{ width: 150, height: 200 }}
+        style={{ width: 150, height: 150 }}
         src={url_imagen}
         alt={props.nombre}
       />
-      <h5 className="herramienta_name">{props.nombre}</h5>
+      <h5 className="herramienta text-center pt-4">{props.nombre}</h5>
     </Col>
   );
 }

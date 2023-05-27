@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Adventure';
+    src: url('AdventureNormal.eot');
+    src: url('AdventureNormal.eot?#iefix') format('embedded-opentype'),
+        url('AdventureNormal.woff2') format('woff2'),
+        url('AdventureNormal.woff') format('woff'),
+        url('AdventureNormal.ttf') format('truetype'),
+        url('AdventureNormal.svg#AdventureNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+    background-color: #4b1139 ;
+}
+
+.recuadro{
+  background-color: #3b4058;  
+}
+
+.aventura{
+    font-family: 'Adventure',sans-serif;
+    font-size: 75px;
+    color:rgb(255, 255, 255);
+}
+
+.navItem{
+    color:rgb(255, 255, 255);
+    font-family:'Adventure', sans-serif;
+    font-size:30px;
+    background-color: #3b4058;  
+}
+.navItem:hover{
+    color:#c9b180   ;
+    background-color: #2a6e78   ;
+}
+
+.underline{
+    font-family:'Adventure', sans-serif;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+
+.texto_intro{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+    font-size:25px;
+}
+
+
+
+.megatitulo_exp{
+    color:rgb(255, 255, 255);
+    font-family:"Adventure", sans-serif;
+    font-size:45px;
+    font-weight: bold;
+}
+
+.titulo_exp{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.texto_exp{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+    font-size:20px;
+}
+
+.herramienta{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.megatitulo_exp{
+    color:rgb(255, 255, 255);
+    font-family:"Adventure", sans-serif;
+    font-size:45px;
+    font-weight: bold;
+}
+
+.canal{
+    
+    color:rgb(255, 255, 255);
+    font-family:"Adventure",Helvetica;
+    font-size:35px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.canal:hover{
+    color:#c9b180   ;
+    background-color: #2a6e78;
+}
+
+.video_titulo{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+    font-size:30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.video_titulo:hover{
+    color:#c9b180   ;
+    background-color: #2a6e78;    
+}
+
+
+
+.video:hover{
+    border: 12px groove #2a6e78;
+}
+
+
+
+h2{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+}
+    
+h3{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+    
+}
+
+
+
+.seccion{
+    background-color: #8D89A9;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.seccion1{
+    background-color: #8D89A9;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.seccion2{
+    content: "";
+    clear: both;
+    display: table;
+    margin: 20px;
+    width: 100%;
+}
+
+
+.end{
+    background-color: #706C93;
+    margin: 20px;
+}
+
+
+
+p.video{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+    font-size:14px;
+    float: left;
+    width: 50%;
+}
+
+
+
+h3.video{
+    color:rgb(255, 255, 255);
+    font-family:Helvetica, sans-serif;
+    float: left;
+    width: 50%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul.cab{
+    background-color: #706C93;
+    margin: 20px;
+    padding: 0px;
+    overflow: hidden;
+    list-style-type: none;
+
+}
+
+li.elem{
+    border-right: 2px solid white;
+    float: left;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+
+}
+
+a.barra:link{
+    color: white;
+    text-decoration: none;
+}
+
+a.barra:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.barra:hover{
+    color:black;
+    background-color:#e0dfe8;
+    text-decoration: none;
+    padding: 17px;
+
+}
+
+img.cent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.video{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+
+
+

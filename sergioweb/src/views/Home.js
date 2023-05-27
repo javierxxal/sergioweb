@@ -1,21 +1,28 @@
 
-import { Col, Row, Container } from "react-bootstrap"
+import { Col, Row} from "react-bootstrap"
 
+import '../css/estilo.css';
 
 
 export function Home() {
 
 
     return (
-        <>
-            <h2 class="aventura text-5xl pt-5 pb-2">Sergio Sanchis Cagigal</h2>
-            <h3 class="underline text-xl">Game Designer y Game producer</h3>
+        <Row className="text-center">
+            <Col xs={1}></Col>
+            <Col xs={10}>
+            <div class="aventura pb-2">Sergio Sanchis Cagigal</div>
+            <h3 class="underline pb-3">Game Designer y Game producer</h3>
 
             <div class='flex items-center justify-center py-7'>
-                <img src="/sergio.jpg" alt="Sergio" ></img>
+                <img 
+                    src="/sergio.jpg"
+                    alt="Sergio"
+                    style={{ width: 600, height: 600 }}
+                />
             </div>
 
-            <div class="text-lg">
+            <div class="text-centered texto_intro">
                 <br />
                 Mi nombre es Sergio Sanchis Cagigal y soy graduado en comunicación audiovisual. Tengo conocimientos de edición de vídeo, audio y redes sociales.
                 Pero he orientado mi carrera profesional al mundo de los videojuegos, como Diseñador de juego y como productor.
@@ -32,9 +39,8 @@ export function Home() {
 
             </div>
 
-            <br></br>
-            <br></br>
-            <br></br>
-        </>
+            </Col>
+            <Col xs={1}></Col>
+        </Row>
     );
 }

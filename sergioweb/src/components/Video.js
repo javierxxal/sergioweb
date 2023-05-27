@@ -2,7 +2,7 @@ import React from "react";
 import { Col } from "react-bootstrap";
 
 
-import "../index.css";
+import '../css/estilo.css';
 
 
 
@@ -14,16 +14,16 @@ export default function Video(props) {
 
 
   return (
-    <Col>
-      <a target="_blank" href={props.link}>
+    <Col >
+      <a target="_blank" href={props.link} rel="noreferrer">
         <img
-          className="imagen"
-          style={{ width: 250, height: 300 }}
+          className="rounded mx-auto d-block video"
+          style={{ width: 600, height: 300 }}
           src={url_imagen}
           alt={props.nombre}
         />
       </a>
-      <h5 className="imagen">{props.nombre}</h5>
+      <h5 className="py-2 text-center video_titulo">{props.nombre}</h5>
     </Col>
   );
 }

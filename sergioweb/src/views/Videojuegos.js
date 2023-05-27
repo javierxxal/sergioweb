@@ -1,9 +1,4 @@
 import {
-  Navbar,
-  Container,
-  Nav,
-  Form,
-  Button,
   Row,
   Col,
 } from "react-bootstrap";
@@ -11,11 +6,13 @@ import {
 
 import data_v from '../data/videogame.json'
 import Videogame from "../components/Videogame";
+import '../css/estilo.css';
 
 export function Videojuegos() {
 
   const videogames = data_v.map((v)=>{
       return(
+        <Row>
         <Videogame 
         key={v.nombre}
         nombre={v.nombre}
@@ -23,17 +20,17 @@ export function Videojuegos() {
         link={v.link}
         descripcion={v.descripcion}
         />
+        </Row>
       )
   })
 
   return (
-    <>
-      <br />
-      <br />
-      <h2 class="text-2xl px-5  pb-2 font-bold text-left hover:animate-bounce ">Videojuegos </h2>
-      <div class="px-12 text-lg">
+    <Row>
+      <Col xs={1}></Col>
+      <Col xs={10}>
         {videogames}
-      </div>
-    </>
+      </Col>
+      <Col xs={1}></Col>
+    </Row>
   );
 }

@@ -1,21 +1,36 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import { Row,Col } from "react-bootstrap";
 
 
-import "../index.css";
+import '../css/estilo.css';
 
 
 
 export default function Proyecto(props) {
 
+  const url_imagen = `/Proyecto/${props.imagen}`;
+
 
   return (
-    <Col>
-      <h5 className="herramienta_name">{props.nombre}</h5>
-      <div>Enlace:</div>
-      <div>{props.link}</div>
-      <br></br>
-      <div>{props.description}</div>
-    </Col>
+    <Row className="mt-3 mb-4 text-center">
+      <Col xl={2}></Col>
+      <Col>
+      <a target="_blank" href={props.link} rel="noreferrer">
+      <h4 className="video_titulo">{props.nombre}</h4>
+      </a>
+      <a target="_blank" href={props.link} rel="noreferrer">
+      <img
+        style={{ width: 250, height: 350 }}
+        src={url_imagen}
+        alt={props.nombre}
+        className="video"
+      />
+      </a>
+      <Row>
+      <div className="texto_exp">{props.description}</div>
+      </Row>
+      </Col>
+      <Col xl={2}></Col>
+    </Row>
   );
 }

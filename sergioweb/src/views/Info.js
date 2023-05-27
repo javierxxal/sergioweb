@@ -1,9 +1,4 @@
 import {
-  Navbar,
-  Container,
-  Nav,
-  Form,
-  Button,
   Row,
   Col,
 } from "react-bootstrap";
@@ -11,13 +6,11 @@ import {
 
 import data_h from '../data/herramientas.json'
 import Herramienta from '../components/Herramienta'
+import '../css/estilo.css';
 
 export function Info() {
-  let linea = 7
 
   const herramientas = data_h.map((h) => {
-    if (linea > 0) {
-      linea--;
       return (
         <Herramienta
           key={h.nombre}
@@ -25,35 +18,31 @@ export function Info() {
           imagen={h.imagen}
         />
       )
-    } else {
-      linea = 7
-      return (
-        <>
-          <Row></Row>
-          <Herramienta
-            key={h.nombre}
-            nombre={h.nombre}
-            imagen={h.imagen}
-          />
-        </>
-      )
-    }
-
-
   })
 
   return (
-    <Row>
+    <Row >
       <Col xs={1}></Col>
       <Col xs={10}>
-        <br />
-        <br />
-        <h2 class="">Experiencia </h2>
-        <br />
 
-        <div class="">
-          <Row>
-            <h4>Picking en superficies comerciales</h4>
+        <Row className="pb-5">
+          <Col>
+          <h2 class="megatitulo_exp pt-5">Experiencia </h2>
+          </Col>
+          <Col></Col>
+          <Col xs={3}>
+          <a target="_blank" href={"https://www.linkedin.com/in/sergio-sanchis-cagigal-20818b245/" } rel="noreferrer">
+            <img
+              className="mt-2"
+              style={{ width: 100, height: 100 }}
+              src={'/Logos/linkedin.png'}
+              alt={"linkeding"}/>
+          </a>
+          </Col>
+        </Row>
+        <Row className="texto_exp">
+          <Col>
+            <h4 className="titulo_exp text-center">Picking en superficies comerciales</h4>
             <Col xs={1}></Col>
             <Col>
               <ul>
@@ -63,9 +52,9 @@ export function Info() {
                 <li type="circle">Atención al público.</li>
               </ul>
             </Col>
-          </Row>
-          <Row>
-            <h4>Prácticas de edición de vídeo</h4>
+          </Col>
+          <Col>
+            <h4 className="titulo_exp text-center">Prácticas de edición de vídeo</h4>
             <Col xs={1}></Col>
             <Col>
               <ul>
@@ -75,9 +64,9 @@ export function Info() {
                 <li type="circle">Prácticas remuneradas.</li>
               </ul>
             </Col>
-          </Row>
-          <Row>
-            <h4>Organización TFG Jam</h4>
+          </Col>
+          <Col>
+            <h4 className="titulo_exp text-center">Organización TFG Jam</h4>
             <Col xs={1}></Col>
             <Col>
               <ul>
@@ -86,8 +75,9 @@ export function Info() {
                 <li type="circle">Comunicación del evento</li>
               </ul>
             </Col>
-          </Row><Row>
-            <h4>Escape Room “Open Day”</h4>
+          </Col>
+          <Col>
+            <h4 className="titulo_exp text-center">Escape Room “Open Day”</h4>
             <Col xs={1}></Col>
             <Col>
               <ul>
@@ -95,9 +85,9 @@ export function Info() {
                 <li type="circle">Diseño, creación y dirección del Escape room y el evento.</li>
               </ul>
             </Col>
-          </Row>
-          <Row>
-            <h4>Producción del videojuego “Vagalume”</h4>
+          </Col>
+          <Col>
+            <h4 className="titulo_exp text-center">Producción del videojuego “Vagalume”</h4>
             <Col xs={1}></Col>
             <Col>
               <ul>
@@ -106,19 +96,17 @@ export function Info() {
                 <li type="circle">Metodologías ágiles, planificación, gantt, gestión del equipo…</li>
               </ul>
             </Col>
-          </Row>
-        </div>
+          </Col>
+        </Row>
 
-        <br />
 
-        <h2 class="">Herramientas que uso</h2>
+        <h2 class="pb-4 megatitulo_exp">Herramientas que uso</h2>
         <div class="">
           <Row>{herramientas}</Row>
         </div>
       </Col>
       <Col xs={1}></Col>
-
     </Row>
-
+    
   );
 }

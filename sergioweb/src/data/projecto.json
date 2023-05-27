@@ -2,31 +2,42 @@
     {
         "nombre":"El viaje de shaira",
         "link":"https://adventr.io/published/shaira-sjourney-05807388",
-        "description":"Narrativa infantil interactiva (DEMO). Donde los niños pueden ir aprendiendo sobre los distintos inventos, quienes lo crearon y cómo funcionan. Me encargue de la implementación del contenido en la herramienta “Adventr”, en el diseño sonoro y edición de audio, diseño de juego y planificación."
+        "description":"Narrativa infantil interactiva (DEMO). Donde los niños pueden ir aprendiendo sobre los distintos inventos, quienes lo crearon y cómo funcionan. Me encargue de la implementación del contenido en la herramienta “Adventr”, en el diseño sonoro y edición de audio, diseño de juego y planificación.",
+        "imagen":"viaje_de_shaira.png"
     },
     {
         "nombre":"Escoge tu final",
         "link":"https://www.youtube.com/watch?v=hO-58WBiYik&t=2s",
-        "description":"Corto realizado para la 11º edición del concurso “Adicciones: Tú punto de mira”. Estuve encargado de todo lo relacionado con el diseño sonido y la edición de audio."
+        "description":"Corto realizado para la 11º edición del concurso “Adicciones: Tú punto de mira”. Estuve encargado de todo lo relacionado con el diseño sonido y la edición de audio.",
+        "imagen":"escoge_tu_final.jpg"
+
     },
     {
         "nombre":"Rock and roll producciones",
         "link":"https://drive.google.com/drive/folders/1IXQKR1Cqzc_o0nte2ZuXCKQUfjIHMSU9?usp=sharing",
-        "description":"Realización de una campaña publicitaria para una campaña de rol que se emitirá en directo. Consta de un cartel publicitario, un vídeo y varios audios en 8D."
+        "description":"Realización de una campaña publicitaria para una campaña de rol que se emitirá en directo. Consta de un cartel publicitario, un vídeo y varios audios en 8D.",
+        "imagen":"rock_and_roll.png"
+
     },
     {
         "nombre":"Politono",
         "link":"https://youtu.be/EschLwWxWS4",
-        "description":"Cortometraje. Encargado del montaje, edición y efectos visuales."
+        "description":"Cortometraje. Encargado del montaje, edición y efectos visuales.",
+        "imagen":"politono.jpg"
+
     },
     {
         "nombre":"No empty fridge",
         "link":"https://www.youtube.com/watch?v=2FQu4aYqq5g",
-        "description":"Cortometraje basado en los objetivos de desarrollo sostenible. Más concretamente en el objetivo “Hambre cero” y el hambre en la infancia. Fui sonidista y editor."
+        "description":"Cortometraje basado en los objetivos de desarrollo sostenible. Más concretamente en el objetivo “Hambre cero” y el hambre en la infancia. Fui sonidista y editor.",
+        "imagen":"no_empty_fridge.jpg"
+
     },
     {
         "nombre":"Informativo",
-        "link":"https://www.youtube.com/watch?v=2FQu4aYqq5g",
-        "description":"Informativo realizado en sala de televisión en la universidad. Yo preparé el reportaje de Cruz roja y Ucrania. A su vez, en la sala de televisión fui ayudante de realización controlando la mesa de mezclas de video."
+        "link":"https://www.youtube.com/watch?v=7DmV4BKWlrw&feature=youtu.be&ab_channel=ajoloteanonimo",
+        "description":"Informativo realizado en sala de televisión en la universidad. Yo preparé el reportaje de Cruz roja y Ucrania. A su vez, en la sala de televisión fui ayudante de realización controlando la mesa de mezclas de video.",
+        "imagen":"informativo.jpg"
+
     }
 ]

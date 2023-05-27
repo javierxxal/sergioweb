@@ -1,9 +1,4 @@
 import {
-    Navbar,
-    Container,
-    Nav,
-    Form,
-    Button,
     Row,
     Col,
   } from "react-bootstrap";
@@ -12,6 +7,7 @@ import {
   
   import data_p from '../data/projecto.json'
   import Proyecto from "../components/Proyecto";
+  import '../css/estilo.css';
 
   export function Proyectos() {  
 
@@ -21,19 +17,19 @@ import {
         key={p.nombre}
         nombre={p.nombre}
         link={p.link}
-        descripcion={p.descripcion}
+        description={p.description}
+        imagen={p.imagen}
         />
       )
     })
 
     return (
-      <>
-        <br />
-        <br />
-        <h2 class="text-2xl px-5  pb-2 font-bold text-left hover:animate-bounce ">Otros proyectos </h2>
-        <div class="px-12 text-lg">
+      <Row>
+        <Col xs={1}></Col>
+        <Col xs={10}>
           {projectos}
-        </div>
-      </>
+        </Col>
+        <Col xs={1}></Col>
+      </Row>
     );
   }

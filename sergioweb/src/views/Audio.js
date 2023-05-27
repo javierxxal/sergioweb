@@ -9,7 +9,8 @@ import {
   } from "react-bootstrap";
   
 
-  
+  import '../css/estilo.css';
+
  
 
   export function Audio() {  
