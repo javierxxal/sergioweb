@@ -48,7 +48,7 @@ export function Info() {
               <ul>
                 <li type="circle">El corte inglés. Enero-Noviembre 2021</li>
                 <li type="circle">Preparación de pedidos</li>
-                <li type="circle">Mozo de almacen</li>
+                <li type="circle">Mozo de almacén</li>
                 <li type="circle">Atención al público.</li>
               </ul>
             </Col>
