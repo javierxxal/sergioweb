@@ -18,6 +18,9 @@ import './css/estilo.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+console.log("Sitio Web creado por Javier Alonso Lledó (https://github.com/javierxxal) akka: Jabubu")
+
+
 root.render(
   <>
     <BrowserRouter>
