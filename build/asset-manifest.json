@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.895b33bd.css",
+    "main.js": "/static/js/main.67d0b78a.js",
+    "static/media/AdventureNormal.svg": "/static/media/AdventureNormal.b04a69a8f54742fa344d.svg",
+    "static/media/AdventureNormal.eot": "/static/media/AdventureNormal.c88c98516c258de4ab4d.eot",
+    "static/media/AdventureNormal.ttf": "/static/media/AdventureNormal.b51850131bb8e741180b.ttf",
+    "static/media/AdventureNormal.woff": "/static/media/AdventureNormal.6dad359e1c96ad66fa06.woff",
+    "static/media/AdventureNormal.woff2": "/static/media/AdventureNormal.cc6e6e0cedc81f111b15.woff2",
+    "index.html": "/index.html",
+    "main.895b33bd.css.map": "/static/css/main.895b33bd.css.map",
+    "main.67d0b78a.js.map": "/static/js/main.67d0b78a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.895b33bd.css",
+    "static/js/main.67d0b78a.js"
+  ]
+}
